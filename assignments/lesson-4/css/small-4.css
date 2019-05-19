@@ -1,0 +1,59 @@
+/* CIT 230 - Weather index CSS */
+
+body { 
+    font-size: 20px; 
+    line-height: 30px;
+    font-family: Arial;
+    background-color: #EDEDED;
+}
+
+h1 {
+    font-size: 60px;
+    color: blue;
+    background-color: gray;
+    padding: .70em;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    background-color: gray;
+}
+
+ul li {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 400px;
+    list-style-type: none;  
+    padding: 20px;
+}
+
+header, main, footer {
+    margin: .5rem auto;
+    padding: .10rem;
+}
+
+header, footer, footer {
+    text-align: center;
+    background-color: EDEDED;
+    color: blue;
+}
+
+header img {
+    width: 200px;
+    height: auto;
+    float: left;   
+}
+
+footer {
+    font-size: smaller;
+    padding: 1em;
+    background-color: EDEDED;
+}
+
+h3 {
+    font-size: 60px;
+    color: blue;
+    background-color: gray;
+    padding: .70em;
+}
