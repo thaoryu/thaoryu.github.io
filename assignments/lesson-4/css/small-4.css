@@ -35,7 +35,7 @@ header, main, footer {
 
 header, footer, footer {
     text-align: center;
-    background-color: EDEDED;
+    background-color: #EDEDED;
     color: blue;
 }
 
@@ -48,7 +48,7 @@ header img {
 footer {
     font-size: smaller;
     padding: 1em;
-    background-color: EDEDED;
+    background-color: #EDEDED;
 }
 
 h3 {
@@ -56,4 +56,9 @@ h3 {
     color: blue;
     background-color: gray;
     padding: .70em;
+}
+
+img {
+    width: 700px;
+    height: 200px;
 }

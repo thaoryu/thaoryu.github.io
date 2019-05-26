@@ -1,0 +1,85 @@
+/* CIT 230 - Weather index CSS */
+/* Media Query for medium + screens */
+@media only screen and (min-width: 675px) {
+    
+    header h1 {
+        font-size: 5em;
+    }
+
+    header h2 {
+        font-size: 2em;
+        margin-top: 0;
+    }
+    
+    div.subheading {
+        font-size: 1.4em;
+    }
+  
+    header img {
+        max-width: 110px;
+        margin-left: 50px
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    nav ul li a {
+        font-size: 1.3em;
+        border: none;
+        border-right: 1px solid;
+        padding: .6rem 1rem; 
+    }
+
+    .navigation li:first-child { 
+        display: none;	
+    }
+
+	.navigation li { 
+        display: inline-block;
+    }	
+	
+    img.town {
+        height: 500px;
+    }
+    
+    .forecast h3 {
+        font-size: 20px;
+    }
+    section.hero {
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    section.forecast {
+        display: block;
+        font-family: arial;
+        padding: 20px;
+        text-align: center;
+    }
+  
+    section.forecast table {
+        margin: auto auto 40px auto;
+    }
+  
+    .forecast td,
+    .forecast th {
+        border: 3px solid gray;
+        padding: .8rem;
+    }
+  
+    .forecast td img {
+        height: 40px;
+    }
+    
+    .forecast th {
+        background-color: gray;
+        color: blue;
+        padding: 1.3%;
+        font-size: 1.2rem;
+    }
+  
+    .forecast tbody {
+        font-size: 2.5rem;
+    }
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Idaho Weather</title>
+    <meta name="author" content="Fong Thao | CIT 230">
+    <meta name="description" content="Three best cities in Idaho">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small-5.css">
+    <link rel="stylesheet" href="css/large-5.css">
+</head>
+<body>
+    <header>
+        <img src="images/weather_logo.jpg" alt="Weather logo">
+            <div class="headings">
+                <h1>Idaho Weather</h1>
+                <div class="motto"></div>
+                    <h2>"Three best cities in Idaho"</h2>
+            </div>
+    </header>
+    <nav>
+        <div class="nav">
+            
+        <ul class="navigation">
+            <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="preston-5.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+        </div>
+    </nav>
+    <main>
+        <h3>Preston Idaho</h3>  
+        <section class="hero"> 
+        
+            <img class="town" src="images/preston.jpg" alt="Town of Preston">
+            <div id="summary">
+                <h3>Weather Summary</h3>
+                <p>Currenlty: <span></span>Sunny</p>
+                <p>High: <span></span>76 &deg;F</p>
+                <p>Wind Chill: <span></span>78 &deg;F</p>
+                <p>Humidity: <span></span>69%</p>
+                <p>Wind Speed: <span></span>5 mph</p>
+            </div>
+        </section>
+        <section class="forecast">
+            <h3>5 Day Forecast</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th><span id="dayone">Wed</span></th>
+                        <th><span id="daytwo">Thurs</span></th>
+                        <th><span id="daythree">Fri</span></th>
+                        <th><span id="dayfour">Sat</span></th>
+                        <th><span id="dayfive">Sun</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="images/sun.jpg " alt="Weather Icon"><br><span id="dayonetemp"></span>89&deg;F</td>
+                        <td><img src="images/sun.jpg" alt="Weather Icon"><br><span id="daytwotemp"></span>87&deg;F</td>
+                        <td><img src="images/sun.jpg" alt="Weather Icon"><br><span id="daythreetemp"></span>78&deg;F</td>
+                        <td><img src="images/sun.jpg" alt="Weather Icon"><br><span id="dayfourtemp"></span>75&deg;F</td>
+                        <td><img src="images/sun.jpg" alt="Weather Icon"><br><span id="dayfivetemp"></span>72&deg;F</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+       <article>
+        <h4>Article placeholder</h4>
+    </article>
+    </main>
+    <footer>
+        <div>Map placeholder</div>
+        <h5>Copyright ©2019 Fong Thao Idaho <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a></h5>
+    </footer>
+</body>
+</html>

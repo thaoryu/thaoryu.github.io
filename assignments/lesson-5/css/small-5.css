@@ -1,0 +1,115 @@
+/* CIT 230 - Weather index CSS */
+
+body {
+    font-size: .8em;
+}
+
+.clearfix {
+    overflow:auto;
+}
+header {
+    text-align: center;
+}
+header img {
+    max-width: 110px;
+    margin-left: 50px
+}
+
+div.headings {
+    display: inline-block;
+    text-align: center;
+}
+header h1 {
+    color: blue;
+    font-family: arial;
+    margin: 0;
+    font-size: 1.2em;
+    display: inline;
+}
+
+nav {
+    background-color: lightgray;
+    font-family: arial;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: blue;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    justify-content: center;
+}
+
+li.active {
+    background-color: gray
+}
+
+nav ul a:hover {
+    background-color: gray;
+}
+
+section.hero {
+    position: relative;
+}
+
+main h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+img.town {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+
+div#summary {
+    background-color: lightgray;
+    opacity: 0.7;
+    position: absolute;
+    top: 13em;
+    left: 125px;
+    padding: 10px;
+    top: 25px;
+    left: 20px;
+    box-shadow: 0 4px 8px 0;
+    width: 150px;
+}
+
+div#summary h3 {
+    font-size: 1em;
+    padding-bottom: 10px;
+    border-bottom: 4px gray;
+}
+
+div#summary p {
+    font-family: arial;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.forecast {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    padding: 1em;
+}
+
+.navigation li:first-child { 
+    display: block;}
+
+.navigation li { 
+    display: none;}
