@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Idaho Weather</title>
+    <meta name="author" content="Fong Thao | CIT 230">
+    <meta name="description" content="Three best cities in Idaho">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small-6.css">
+    <link rel="stylesheet" href="css/large-6.css">
+</head>
+<body>
+    <header>
+        <img src="images/weather_logo.jpg" alt="Weather logo">
+            <div class="headings">
+                <h1>Idaho Weather</h1>
+                <div class="motto"></div>
+                    <h2>"Three best cities in Idaho"</h2>
+            </div>
+    </header>
+    <nav>
+        <div class="nav">
+            
+        <ul class="navigation">
+            <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="preston-5.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+        </div>
+    </nav>
+    <main>
+        <h3>Preston Idaho</h3>  
+        <section class="hero"> 
+            <figure class="mainimage">
+                <img class="town" src="images/frank.jpg" alt="Town of Preston" sizes="100vw" srcset="images/frank-small.jpg 600w, images/frank.jpg 601w">
+            </figure>
+
+            <div id="summary">
+                <h3>Weather Summary</h3>
+                <p>Currenlty: <span></span>Sunny</p>
+                <p>High: <span></span>76 &deg;F</p>
+                <p>Wind Chill: <span></span>78 &deg;F</p>
+                <p>Humidity: <span></span>69%</p>
+                <p>Wind Speed: <span></span>5 mph</p>
+            </div>
+        </section>
+        <section class="forecast">
+            <h3>5 Day Forecast</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th><span id="dayone">Wed</span></th>
+                        <th><span id="daytwo">Thurs</span></th>
+                        <th><span id="daythree">Fri</span></th>
+                        <th><span id="dayfour">Sat</span></th>
+                        <th><span id="dayfive">Sun</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="images/sun.jpg " alt="Weather Icon"><br><span id="dayonetemp"></span>89&deg;F</td>
+                        <td><img src="images/sun.jpg" alt="Weather Icon"><br><span id="daytwotemp"></span>87&deg;F</td>
+                        <td><img src="images/sun.jpg" alt="Weather Icon"><br><span id="daythreetemp"></span>78&deg;F</td>
+                        <td><img src="images/sun.jpg" alt="Weather Icon"><br><span id="dayfourtemp"></span>75&deg;F</td>
+                        <td><img src="images/sun.jpg" alt="Weather Icon"><br><span id="dayfivetemp"></span>72&deg;F</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+       <article>
+        <h4>Preston Town</h4>
+        <div class=clearfix>
+            <p class="article">
+                <img src="images/visit.jpg" alt="Festival"> Preston is a city in Franklin County. It has held a Summer festival for serveral  years now.
+                The activities they play there are, tetherball tounament, fotball contest, tater tot eating contest,and moon boot dance.
+                They also have festival lights. The climate here is great, not too hot, and not too cold. The education system is great. They Have great
+                and caring teacher to teach your kids.
+            </p>
+        </div>
+    </article>
+    </main>
+    <footer>
+        <aside>
+            <div class="contact">
+                <p><b>Perfect Weather</b></p>
+                <p><i class="material-icons">location</i> 39 W Oneida St <br>Preston, ID 83263</p>
+                <p><i class="material-icons">phone</i> 800-555-5038</p>
+                <p><i class="material-icons">email</i> preston@weather.com</p>
+                <img class="social-icons" src="images/facebook.png" alt="">
+                <img class="social-icons" src="images/pin.jfif" alt="">
+                <img class="social-icons" src="images/twitter.png" alt="">
+                <img class="social-icons" src="images/google.jfif" alt="">
+            </div>
+            <div id="myMap"></div><br>
+        </aside>
+        <p class="footer-bar">&copy;2019 Fong Thao Idaho | Weather | <span id="myDate"></span>
+    </footer>
+
+    <script src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=Agl5mCnTUR7UvpH6HJaouEJigifv_cJZ1UhrQLfNyuxGuCHSqrULtguEQ_6NDmrG' 
+            async defer></script>
+    <script src='js/map.js'></script>
+
+    <script src="js/currentdate.js"></script>
+    <script src="js/hamburger.js"></script>
+</body>
+</html>
