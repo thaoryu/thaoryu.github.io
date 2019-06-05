@@ -177,7 +177,7 @@ footer aside p {
 }
 
 div#myMap {
-    width:400px;height:200px;;
+    width:100%; height:200px;
     margin: auto;
     border: 1px solid black;
     display: block;
