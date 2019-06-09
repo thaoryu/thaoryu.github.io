@@ -30,7 +30,7 @@ header h1 {
     font-family: arial;
     margin: 0;
     font-size: 3em;
-    display: inline;
+    display: flex;
 }
 
 nav {
