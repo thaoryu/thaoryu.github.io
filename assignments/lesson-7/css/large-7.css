@@ -1,6 +1,6 @@
 /* CIT 230 - Weather index CSS */
 /* Media Query for medium + screen */
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 800px) {
     
     header h1 {
         font-size: 5em;
