@@ -1,6 +1,6 @@
 /* CIT 230 - Weather index CSS */
 /* Media Query for medium + screen */
-@media only screen and (min-width: 675px) {
+@media only screen and (min-width: 700px) {
     
     header h1 {
         font-size: 5em;
@@ -16,8 +16,9 @@
     }
   
     header img {
-        max-width: 110px;
-        margin-left: 50px
+        width: 7vw;
+        height: 7vw;
+        margin-left: 0;
     }
 
     nav ul li {
@@ -42,6 +43,10 @@
 	.navigation li { 
         display: inline-block;
     }	
+
+    img.town {
+        height: auto;
+    }
 	
     .forecast h3 {
         font-size: 20px;
@@ -96,14 +101,29 @@
     }
 
     footer aside {
-        text-align: left;
+        text-align: center;
+        display: flex; 
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 50px;
     }
 
     div#myMap {
-        width:400px;height:200px;;
+        width:50%;height:200px;
         margin: auto;
         border: 1px solid black;
-        display: block;
-        top: -200px;
     }
+
+  /*gallery*/
+
+  /* 3 column photo grid*/
+  div.gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+  
+  div.gallery figure:hover {
+        box-shadow: 6px 6px 9px #a31b1b;
+        background-color: gray;
+    }
+  
 }

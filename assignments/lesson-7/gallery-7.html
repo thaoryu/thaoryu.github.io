@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Idaho Weather</title>
+    <meta name="author" content="Fong Thao | CIT 230">
+    <meta name="description" content="Gallery">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small-7.css">
+    <link rel="stylesheet" href="css/medium-7.css">
+    <link rel="stylesheet" href="css/large-7.css">
+</head>
+
+<body>
+<header>
+    <img src="images/weather_logo.jpg" alt="Weather logo">
+        <div class="headings">
+            <h1>Idaho Weather</h1>
+            <div class="motto"></div>
+                <h2>"Three best cities in Idaho"</h2>
+        </div>
+</header>
+<nav>
+    <div class="nav">
+        
+    <ul class="navigation">
+        <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="#">Home</a></li>
+        <li class="#"><a href="preston-7.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li class="active"><a href="gallery-7.html">Gallery</a></li>
+    </ul>
+    </div>
+</nav>
+
+<main>
+    <h2 class="title">Gallery</h2>
+        <div class="gallery">
+          <figure>
+          <img src="images/fog.jfif" alt="fog">
+              <figcaption>Fog in Preston</figcaption>
+          </figure>
+          <figure>
+          <img src="images/lightning.jfif" alt="lighting">
+              <figcaption>Lightning in Preston</figcaption>
+          </figure>
+          <figure>
+          <img src="images/rain.jfif" alt="rain">
+              <figcaption>Rain in Preston</figcaption>
+          </figure>
+          <figure>
+          <img src="images/rainbow.jfif" alt="clear day">
+              <figcaption>Rainbow in Preston</figcaption>
+          </figure>
+          <figure>
+          <img src="images/spring.jfif" alt="flowers">
+              <figcaption>Spring in Preston</figcaption>
+          </figure>
+          <figure>
+          <img src="images/sun.jfif" alt="summer">
+              <figcaption>Summer in Preston</figcaption>
+          </figure>
+      </div>
+</main>
+<footer>
+    <aside>
+        <div class="contact">
+            <p><b>Perfect Weather</b></p>
+            <p><i class="material-icons">location_on</i> 39 W Oneida St <br>Preston, ID 83263</p><br>
+            <p><i class="material-icons">phone</i> 800-555-5038</p>
+            <p><i class="material-icons">email</i> preston@weather.com</p>
+            <img class="social-icons" src="images/facebook.png" alt="">
+            <img class="social-icons" src="images/pin.jfif" alt="">
+            <img class="social-icons" src="images/twitter.png" alt="">
+            <img class="social-icons" src="images/google.jfif" alt="">
+        </div>
+        <div id="myMap"></div><br>
+    </aside>
+    <p class="footer-bar">&copy;2019 Fong Thao Idaho | Weather | <span id="myDate"></span>
+</footer>
+
+<script src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=Agl5mCnTUR7UvpH6HJaouEJigifv_cJZ1UhrQLfNyuxGuCHSqrULtguEQ_6NDmrG' 
+        async defer></script>
+<script src='js/map.js'></script>
+
+<script src="js/currentdate.js"></script>
+<script src="js/hamburger.js"></script>
+</body>
+</html>
