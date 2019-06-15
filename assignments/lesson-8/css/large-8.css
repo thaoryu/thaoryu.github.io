@@ -124,10 +124,5 @@
   div.gallery figure:hover {
         box-shadow: 6px 6px 9px;
         background-color: gray;
-    }
-  
-  /*Storm page*/
-
-   body { font-size: 100%; 
-    }
+    }  
 }
