@@ -1,5 +1,5 @@
-var t = 76; // average temp ( high + low / 2 ) in Fahrenheit
-var s = 5; // Wind Speed in miles per hour
-var f;
-f = 35.74 + 0.6215 * t - 35.75 * Math.pow( s, 0.16 ) + 0.4275 * t * Math.pow( s, 0.16 );
-document.getElementById("windChill").innerHTML = f.toFixed( 2 );
+var temp = parseInt(document.getElementById('highTemp').innerHTML);
+var speed = parseInt(document.getElementById('windSpeed').innerHTML);
+var windChill = 35.74 + 0.6215 * temp - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temp * Math.pow(speed, 0.16);
+windChill = Math.round(windChill);
+document.getElementById("windChill").innerHTML = windChill
