@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Idaho Weather</title>
+    <meta name="author" content="Fong Thao | CIT 230">
+    <meta name="description" content="Three best cities in Idaho">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small-8.css">
+    <link rel="stylesheet" href="css/medium-8.css">
+    <link rel="stylesheet" href="css/large-8.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/weather_logo.jpg" alt="Weather logo">
+        <div class="headings">
+            <h1>Idaho Weather</h1>
+            <div class="motto"></div>
+            <h2>"Three best cities in Idaho"</h2>
+        </div>
+    </header>
+    <nav>
+        <div class="nav">
+            <ul class="navigation">
+                <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li class="#"><a href="homepage.html">Home</a></li>
+            <li class="#"><a href="preston-10.html">Preston</a></li>
+            <li class="#"><a href="sodasprings.html">Soda Springs</a></li>
+            <li class="#"><a href="fishhaven.html">Fish Haven</a></li>
+            <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+            <li class="#"><a href="gallery-8.html">Gallery</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="storm">
+            <h1 class="stormcenter">Storm Center</h1>
+            <form action="thanks.html" method="get" target="_self">
+                <fieldset>
+                    <legend>Your Information:</legend>
+                    <label class="wbfrm">Name: <input type="text" name="name" required pattern="[a-zA-z -._]{5,}"
+                            placeholder="Full Name"></label><br>
+                    <label class="wbfrm">Email: <input type="email" name="email" placeholder="name@domain.com" size="20"
+                            maxlength="75"></label><br>
+                    <label class="wbfrm">Phone Number: <input type="tel" name="phonenumb" required pattern="[0-9 -() ]{10, 20}"
+                            placeholder="(555) 555-5555"></label><br>
+                    <label class="wbfrm">Zip Code: <input type="text" name="zipcode" required
+                            pattern="[0-9- ]{5,}"></label><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Storm Info</legend>
+                    <label class="wbfrm">Storm Date: <br>
+                        <input type="date" name="stormdate"></label><br>
+                    <label class="wbfrm">Storm Type<br>
+                        <select name="stormtype" id="weather_type">
+                            <option value="Select Weather Type" selected>Select Weather Type</option>
+                            <option value="Flash Flood">Flash Flood</option>
+                            <option value="Hail">Hail</option>
+                            <option value="Hurricane">Hurricane</option>
+                            <option value="Thunderstorm">Thunderstorm</option>
+                            <option value="Tornado">Tornado</option>
+                            <option value="Snow">Snow</option>
+                        </select></label><br>
+
+                    <label class="wbfrm">Storm Severity (1 to 10)<br><input type="range" min="1" max="10" value="5"
+                            oninput="showValue(this.value)" onchange="showValue(this.value)">
+                        <span id="severity">5</span></label><br><br>
+
+                    <label class="wbfrm">Storm Region<br>
+                        <input list="referrer" name="location">
+                        <datalist id="referrer">
+                            <option value="Preston">
+                            <option value="Soda Springs">
+                            <option value="Fish Haven">
+                        </datalist></label>
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Are you in danger?</legend>
+                    <input type="radio" id="dngry" name="rating" value="yes"><label for="dngry"><span>
+                            Yes</span></label><br>
+                    <input type="radio" id="dngrm" name="rating" value="maybe"><label for="dngrm"><span>
+                            Maybe</span></label><br>
+                    <input type="radio" id="dngrn" name="rating" value="no"><label for="dngrn"><span>
+                            No</span></label><br>
+                    <input type="radio" id="dngri" name="rating" value="I dunno"><label for="dngri"><span> I
+                            dunno</span></label><br><br>
+
+                    <label class="wbfrm">Additional Info:</label><br>
+                    <textarea id="comments"></textarea><br><br>
+                    <input class="submit" type="submit" value="Submit">
+                    <input type="reset">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+      <footer>
+        <aside>
+            <div class="contact">
+                <p><b>Perfect Weather</b></p>
+                <p><i class="material-icons">location_on</i> 39 W Oneida St <br>Preston, ID 83263</p><br>
+                <p><i class="material-icons">phone</i> 800-555-5038</p>
+                <p><i class="material-icons">email</i> preston@weather.com</p>
+                <img class="social-icons" src="images/facebook.png" alt="">
+                <img class="social-icons" src="images/pin.jfif" alt="">
+                <img class="social-icons" src="images/twitter.png" alt="">
+                <img class="social-icons" src="images/google.jfif" alt="">
+            </div>
+            <div id="myMap"></div><br>
+        </aside>
+        <p class="footer-bar">&copy;2019 Fong Thao Idaho | Weather | <span id="myDate"></span>
+    </footer>
+    <script
+        src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=Agl5mCnTUR7UvpH6HJaouEJigifv_cJZ1UhrQLfNyuxGuCHSqrULtguEQ_6NDmrG'
+        async defer></script>
+    <script src='js/map.js'></script>
+    <script src="js/currentdate.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/severe.js"></script>
+</body>
+</html>
