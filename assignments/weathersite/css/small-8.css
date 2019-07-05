@@ -417,8 +417,8 @@ img.hum {
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
-    width: 85%;
-    height: 100%;
+    max-width: 1000px;
+    height: auto;
     
 }
 
