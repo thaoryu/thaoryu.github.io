@@ -1,0 +1,115 @@
+{
+	"temples" : [
+  {
+    "name": "Idaho",
+	"address": ["50 W North Temple St, Salt Lake City, UT 84150, United States"],
+	"telephone": ["(1) 801-240-2640"],
+	"email": ["Please visit LDS.org and sign in to email"],
+	"services": [
+	"Clothing rental available",
+	"Cafeteria available",
+	"No patron housing available",
+	"Distribution center nearby"
+	],
+	"history": ["Construction of the Salt Lake Temple began in 1853, but the building was not completed until 1893. The lengthy construction time was due to limited transportation for materials and a desire to make the temple perfectly beautiful and strong."],
+	"sschedule": ["Every hour from 6:00 AM to 7:00 PM"],
+	"tcschedule": [
+	"Wednesday, 24 July 2019",
+	"Saturday, 5 October 2019",
+	"Thursday, 17 October 2019 (Limited Hours)",
+	"Wednesday, 27 November 2019 (Limited Hours)",
+	"Thursday, 28 November 2019 - Friday, 29 November 2019",
+	"Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+	"Tuesday, 31 December 2019"
+	]
+  },
+  {
+    "name": "Oklahoma City",
+	"address": ["12030 N Mustang Rd, Yukon, OK 73099, United States"],
+	"telephone": ["(1) 405-373-2309"],
+	"email": ["Please visit LDS.org and sign in to email"],
+	"services": [
+	"No clothing rental available", 
+	"No cafeteria available",
+	"No patron housing available",
+	"No distribution center nearby"
+	],
+	"history": ["This temple was the first to be built in Oklahoma. It was dedicated in July 2000. It was then closed on October 15, 2017, for an extensive renovation project. It was rededicated in May of 2019"],
+	"sschedule": [
+	"9:00 AM",
+	"11:00 AM",
+	"1:00 PM",
+	"6:00 PM",
+	"7:30 PM"
+	],
+	"tcschedule": [
+	"Saturday, 5 October 2019",
+	"Wednesday, 27 November 2019 (Limited Hours)",
+	"Thursday, 28 November 2019",
+	"Monday, 2 December 2019 - Monday, 16 December 2019",
+	"Tuesday, 24 December 2019",
+	"Wednesday, 25 December 2019",
+	"Thursday, 26 December 2019 (Limited Hours)",
+	"Tuesday, 31 December 2019"
+	]
+  },
+    {
+    "name": "Los Angeles",
+	"address": ["10777 Santa Monica Blvd, Los Angeles, CA 90025, United States"],
+	"telephone": ["(1) 310-474-5569"],
+	"email": ["Please visit LDS.org and sign in to email"],
+	"services": [
+	"Clothing rental available",
+	"Cafeteria available",
+	"Patron housing available",
+	"Distribution center nearby"
+	],
+	"history": ["This was the first temple built in California. It was dedicated in March 1956. This is one of five temples featuring an angel Moroni statue holding the gold plates"],
+	"sschedule": [
+	"5:30 AM",
+	"6:45 AM",
+	"8:00 AM",
+	"9:15 AM",
+	"10:30 AM",
+	"11:45 AM",
+	"1:00 PM",
+	"2:15 PM",
+	"3:30 PM",
+	"5:00 PM",
+	"6:15 PM",
+	"7:30 PM"
+	],
+	"tcschedule": [
+	"Tuesday, 16 July 2019 - Monday, 29 July 2019",
+	"Saturday, 5 October 2019",
+	"Wednesday, 27 November 2019 - Thursday, 28 November 2019",
+	"Friday, 29 November 2019 (Limited Hours)",
+	"Tuesday, 24 December 2019 - Thursday, 26 December 2019",
+	"Tuesday, 31 December 2019"
+	]
+  },
+    {
+    "name": "Payson",
+	"address": ["1494 S 930 W, Payson, UT 84651, United States"],
+	"telephone": ["(1) 801-754-4949"],
+	"email": ["Please visit LDS.org and sign in to email"],
+	"services": [
+	"No clothing rental available",
+	"No cafeteria available",
+	"No patron housing available",
+	"Distribution center nearby"
+	],
+	"history": ["This temple was dedicated in June 2015. This was the fifteenth temple built in Utah and the third built in Utah County, following the Provo Utah Temple (1972) and the Mount Timpanogos Utah Temple (1996)."],
+	"sschedule": ["Every 40 minutes from 7:00 AM to 7:40 PM"],
+	"tcschedule": [
+	"Wednesday, 24 July 2019",
+	"Saturday, 5 October 2019",
+	"Monday, 14 October 2019 - Monday, 4 November 2019",
+	"Wednesday, 27 November 2019 (Limited Hours)",
+	"Thursday, 28 November 2019",
+	"Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+	"Tuesday, 31 December 2019"
+	]
+  }
+ ]
+}
